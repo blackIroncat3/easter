@@ -3,7 +3,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 const dateEl = document.getElementById("date");
-const date1 = "Date: 2021.04.04.";
+const date1 = "Date: 2022.04.17.";
 async function timer(){
     const date = new Date()
     const date2 = new Date("2021.04.04. 00:00")
