@@ -6,7 +6,7 @@ const dateEl = document.getElementById("date");
 const date1 = "Date: 2022.04.17.";
 async function timer(){
     const date = new Date()
-    const date2 = new Date("2021.04.04. 00:00")
+    const date2 = new Date("2022.04.17. 00:00")
     const ss = (date2-date)/1000;
     const days = Math.floor(ss / 3600 / 24);
     const hours = Math.floor(ss/3600)%24;
