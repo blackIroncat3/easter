@@ -7,6 +7,7 @@
         initial-scale=1.0"/>
         <link rel="icon" href="icon.png">
         <title>Húsvét</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css"/>
         <script src="script.js" defer></script>
         <meta property="og:type" content="website">
@@ -17,30 +18,30 @@
     </head>
     <body>
         <h1>Húsvét</h1>
-        <div class="birthday">
+        <div class="birthday" id="txt">
             <div class="bday-c">
                 <p class="bday" id=date>0</p>
             </div>
         </div>
-        <div class ="countdown-container">
-            <div class="countdown-el days-c">
-                <p class = "big-text" id="days">0</p>
-                <snap>days</snap>
-            </div>
-            <div class="countdown-el hours-c">
-                <p class = "big-text" id="hours">0</p>
-                <snap>hours</snap>
-            </div>
-            <div class="countdown-el mins-c">
-                <p class = "big-text" id="mins">0</p>
-                <snap>mins</snap>
-            </div>
-            <div class="countdown-el seconds-c">
-                <p class = "big-text" id="seconds">0</p>
-                <snap>seconds</snap>
+        <div class="container">
+            <div class="row countdown-container">
+                <div class="col text-center countdown-el days-c">
+                    <p class = "big-text" id="days">0</p>
+                    <snap>days</snap>
+                </div>
+                <div class="col text-center countdown-el hours-c">
+                    <p class = "big-text" id="hours">0</p>
+                    <snap>hours</snap>
+                </div>
+                <div class="col text-center countdown-el mins-c">
+                    <p class = "big-text" id="mins">0</p>
+                    <snap>mins</snap>
+                </div>
+                <div class="col text-center countdown-el seconds-c">
+                    <p class = "big-text" id="seconds">0</p>
+                    <snap>seconds</snap>
+                </div>
             </div>
         </div>
-       
-
     </body>
 </html>
