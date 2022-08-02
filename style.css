@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("./virag-park-hatterkep-49958.jpg");
+    background-image: url("./kevesebb.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
@@ -10,7 +10,8 @@ body{
     margin: 0;
     padding: 0;
     color: #22ff00;
-    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
 #txt{
     margin-left: 30px;
@@ -19,7 +20,6 @@ body{
 h1{
     font-weight: normal;
     font-size: 4rem;
-    margin: 15px 0 0 30px;
     padding: 0;
 }    
 @media screen and (max-width: 600px){
@@ -33,9 +33,17 @@ h1{
         color: red;
     }       
 }
+.row{
+	filter: drop-shadow(0 -3px 6px #000);
+}
 snap{
+	display: flex;
     color: aqua;
     font-size: 35px;
+	text-align: center;
+	transform: translateY(-90%);
+	filter: drop-shadow(0 -2px 1px black);
+	justify-content: center;
 }
 .big-text{
     font-weight: bold;
@@ -43,7 +51,15 @@ snap{
     line-height: 1;
 }
 .bday{
-    color: #f9f9f9;
-    font-size: 3rem;
+    color: #000;
     text-decoration: underline;
+}
+footer{
+	bottom: 0;
+	position: absolute;
+	background-color: #1e1c1c;
+	width: 100%;
+	padding: 10px;
+	color: gray;
+	text-align: center;
 }
